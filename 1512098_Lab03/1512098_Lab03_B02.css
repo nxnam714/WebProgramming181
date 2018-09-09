@@ -1,0 +1,62 @@
+body {
+	margin:0;
+	padding:0 ;
+	background:#B4AFA7;
+	color:#000;
+}
+#container {
+	background:#B1B3D6;
+	height:100%;
+	min-height:100%;
+	width:750px;
+	color: #000000;
+	text-align:left;
+	margin:auto;
+	position:relative;
+}
+#header {
+	background:#E3E3E3;
+	text-align:left;
+	padding-left: 10px;
+	height:50px;
+}
+#option {
+	background: #D3A8A7;
+	height:30px;
+	clear:both;
+}
+#right {
+	margin-right:-229px;/* must be 1 pixel less than width*/
+	float:right;
+	margin-top: -16px;
+	width:220px;/* must be same as right margin on #middle*/
+	position:relative;
+	display:inline;/* ie fix*/
+}
+* html #right{margin-left:-3px;}/* 3 pixel jog*/
+
+#middle {
+	background:#A5D0A7;
+	margin-right:230px;
+	margin-top:-16px;
+	padding-left: 10px;
+}
+/* mac hide and combat ie's 3 pixel jog \*/
+* html #centre{	:hidden;float:left;width:100%}
+* html #middle {height:1%;}
+/* end hide*/
+#footer {
+	clear:both;
+	height:30px;
+	background:#D2D1A6;
+	text-align:left;
+	padding-left: 10px;
+}
+h1,h3,p {margin-top:0}
+img{float:right;}
+.clearer{
+	height:1px;
+	overflow:hidden;	
+	margin-top:-1px;
+	clear:both;
+}
