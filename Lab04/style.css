@@ -1,18 +1,21 @@
-body { 
-  background: url(./images/bg-body.png) center no-repeat fixed; 
-  background-size: cover;
+html { 
+  background: url(./images/bg-body.png) center no-repeat; 
+  background-size: 117% 100%;
+  width: 100%;
+  height: 100%;
 }
 #container {
-	width: 700px;
+	width: 52%;
 	padding: 0;
 	margin-left: auto;
 	margin-right: auto;
 	position: relative;
 }
 #head {
-	background: url(./images/bg-header.jpg) no-repeat;
+	background: url(./images/bg-header.jpg) center no-repeat;
 	background-size: cover;
     margin-top: -21px;
+    width: 100%;
     height: 140px;
 }
 #head-link {
@@ -25,26 +28,62 @@ body {
 	clear: both;
 }
 #left {
-	width: 505px;
+	width: 65%;
 	min-height: 400px;
 	float:left;
 	margin-bottom: 5px;
+	padding-left: 2%;
+	padding-right: 4%;
+	text-align: justify;
+}
+#ad-top > img {
+	width: 100%;
+	margin-left: -2%;
+	text-align: left;
 }
 #right {
-	width: 185px;
-	min-height: 400px;
+	width: 27%;
 	float: left;
 	margin-bottom: 5px;
-	background-color: #DDDDDD;
 }
-#adtop {
-	padding: 0px;
+#right > img {
+	width: 100%;
 }
 #bg-feed {
-	background: url(./images/bg-feed.gif) center no-repeat;
-	background-size: contain;
-	margin-bottom: 10px;
-	height: 25px;
+	background: url(./images/bg-feed.gif) no-repeat top center;
+	background-size: 70% 25px;
+	width: 100%;
 	text-align: center;
+	overflow: hidden;
 	color: white;
+	background-color: #EFEFEF;
 }
+#sidebar-bottom > img {
+	width: 100%;
+}
+#footer {
+	background: url(./images/bg-footer.jpg) center no-repeat;
+	background-size: cover;
+    margin-top: 412px;
+    width: 100%;
+    height: 100px;
+}
+h1 {
+	margin-bottom: 0px;
+}
+table {
+	width: 100%;
+	margin-top: 20px;
+	text-align: left;
+	color: black;
+	padding: 0;
+}
+td {
+	border-bottom: 1px solid;
+	border-color: #BBBBBB;
+}
+p {
+    display: block;
+	padding-top: 5px;
+	padding-bottom: 5px;
+} 
